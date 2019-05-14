@@ -1,0 +1,35 @@
+{
+    "label": "Volcano - Generate AOI from VOLC",
+    "submission_type": "iteration",
+    "enable_dedup": false,
+    "params" : [
+    {
+      "name": "type",
+      "from": "dataset_jpath:_type"
+    },
+    {
+      "name": "radius_km",
+      "from": "submitter"
+    },
+    {
+      "name": "volcano_name",
+      "from": "dataset_jpath:_source.metadata.volcano_name"
+    },
+    {
+      "name": "volcano_number",
+      "from": "dataset_jpath:_source.metadata.volcano_number"
+    },
+    {
+      "name": "clean_name",
+      "from": "dataset_jpath:_source.metadata.clean_name"
+    },
+    {
+      "name": "latitude",
+      "from": "dataset_jpath:_source.metadata.latitude"
+    },
+    {
+      "name": "longitude",
+      "from": "dataset_jpath:_source.metadata.longitude"
+    }
+]
+}
