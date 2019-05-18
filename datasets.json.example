@@ -1,6 +1,6 @@
    {
       "ipath": "hysds::data/Volcano_AOI",
-      "match_pattern": "/(?P<dataset_type>AOI)-(?P<station>GVN)_(?P<id>.+)-(?P<vname>)$",
+      "match_pattern": "/(?P<dataset_type>AOI)-(?P<station>GVN)_(?P<id>.+)-(?P<vname>.*)$",
       "alt_match_pattern": null,
       "extractor": null,
       "level": "l1",

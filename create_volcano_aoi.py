@@ -21,7 +21,7 @@ INPUT_PROD_TYPE = "volcano"
 def main():
     '''From a VOLC product and creates an AOI a given radius around the volcano'''
     ctx = load_context()
-    prod_type = ctx.get("type", False)
+    prod_type = ctx.get("type", '')
     if prod_type.lower() != INPUT_PROD_TYPE:
         raise Exception("Input product type: {} does not match: {}".format(prod_type, INPUT_PROD_TYPE))
     aoi_radius_km = float(ctx.get("radius_km"))
