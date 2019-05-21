@@ -11,4 +11,4 @@ Job is of type iterative. Job inputs are a VOLC product and radius_km. PGE will 
 
 AOI product is the following spec:
 
-    AOI-GVN_<GVN_number>-<volcano_name>-<version_number>
+    AOI-VOLC-GVN_<GVN_number>-<volcano_name>-<version_number>
