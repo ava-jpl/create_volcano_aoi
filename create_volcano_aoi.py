@@ -13,7 +13,7 @@ import urllib3
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 VERSION = "v1.0"
-AOI_PROD = "AOI-GVN_{}-{}-{}"
+AOI_PROD = "AOI-VOLC-GVN_{}-{}-{}"
 STARTTIME = "1990-01-01T00:00:00Z"
 ENDTIME = "2030-01-01T00:00:00Z"
 INPUT_PROD_TYPE = "volcano"
